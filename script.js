@@ -13,7 +13,7 @@ tl.from("#nav h1,#nav h4,#nav h3",{
     delay:0.8,
     stagger:0.3
 })
-tl.from(".left h1",{
+tl.from(".left h1, .left p",{
     x:-500,
     opacity:0,
     duration:0.5,
@@ -26,7 +26,7 @@ tl.from(".right img",{
     duration:0.5
 })
 
-gsap.from("#page2 .box",{
+gsap.from("#page2 .box, .page2 h2",{
     scale:0,
     opacity:0,
     duration:1,
