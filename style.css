@@ -47,6 +47,23 @@ html, body{
     justify-content: space-between;
     
 }
+
+.page1 i{
+    display: none;
+}
+@media screen and (max-width: 850px) {
+    .nav{
+        display: none;
+    }
+    .page1 i{
+        display: inline;
+        height: 10vh;
+        width: 100%;
+        color: #dadada;
+        
+        
+    }
+}
 .nav h1, h3, h4{
     font-weight: 500;
 

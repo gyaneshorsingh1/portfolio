@@ -26,7 +26,7 @@ tl.from(".right img",{
     duration:0.5
 })
 
-gsap.from("#page2 .box, .page2 h2",{
+gsap.from("#page2 h2",{
     scale:0,
     opacity:0,
     duration:1,
