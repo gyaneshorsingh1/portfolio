@@ -25,8 +25,20 @@ tl.from(".right img",{
     opacity:0,
     duration:0.5
 })
-
 gsap.from("#page2 h2",{
+    scale:0,
+    opacity:0,
+    y:-200,
+    duration:1,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:"#page2 .box",
+        scroller:"body",
+        start:"top 80%"
+    
+    }
+})
+gsap.from("#page2 .box",{
     scale:0,
     opacity:0,
     duration:1,
@@ -34,7 +46,8 @@ gsap.from("#page2 h2",{
     scrollTrigger:{
         trigger:"#page2 .box",
         scroller:"body",
-        start:"top 70%"
+        start:"top 80%"
     
     }
 })
+

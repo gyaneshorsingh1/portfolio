@@ -14,7 +14,7 @@ html, body{
     width: 100%;
     background-color: black;
     border-bottom: 2px white;
-    padding: 0 50px;
+    padding: 0 90px;
 }
 
 .page2{
@@ -71,6 +71,9 @@ html, body{
 .nav h3,h4{
     cursor: pointer;
 }
+.nav h3:hover,.nav h4:hover{
+    color: red;
+}
 .nav-part2{
     display: flex;
     align-items: center;
@@ -107,9 +110,7 @@ html, body{
     border-radius: 50%;
     object-fit: cover;
 }
-.left h1 img :nth-child(1){
-    margin-left: 0;
-}
+
 .right{
 
     height: 100%;
@@ -139,12 +140,10 @@ html, body{
     text-align: center;
     overflow: hidden;
     box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.916);
-    transition: ease-out 0.3s;
+    
     
 }
 .page2 .box:hover{
-    
-    transition: ease-in 0.3s;
     box-shadow: 7px 9px 10px red;
     height: 355px;
     
